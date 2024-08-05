@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import './App.css'; // Asegúrate de importar tu archivo CSS
+import './App.css'; 
 import TodoList from './components/TodoList';
 import TodoForm from './components/TodoForm';
 
