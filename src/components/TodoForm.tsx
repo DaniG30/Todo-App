@@ -23,7 +23,7 @@ const TodoForm: React.FC<TodoFormProps> = ({ addTodo }) => {
           className="form-control"
           value={todo}
           onChange={(e) => setTodo(e.target.value)}
-          placeholder="Add your new todo"
+          placeholder="Añadir nueva tarea"
         />
         <button className="btn btn-primary" type="submit">
           <i className="bi bi-plus-lg"></i>

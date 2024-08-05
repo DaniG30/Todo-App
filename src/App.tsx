@@ -22,13 +22,13 @@ const App: React.FC = () => {
 
   return (
     <div className="container">
-      <h1 className="text-center">Todo App</h1>
+      <h1 className="text-center">Aplicación de Tareas</h1>
       <TodoForm addTodo={addTodo} />
       <TodoList todos={todos} removeTodo={removeTodo} />
       <div className="d-flex justify-content-between align-items-center mt-3">
-        <span>You have {todos.length} pending tasks</span>
+        <span>Tienes {todos.length} tareas pendientes</span>
         <button className="clear-all-button" onClick={clearTodos}>
-          Clear All
+          Borrar Todo
         </button>
       </div>
     </div>
